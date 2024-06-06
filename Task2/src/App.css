@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] ,
+textarea,
+select{
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Styles for the button */
+.button {
+  position: fixed; /* Keeps the button fixed at the top */
+  top: 10px; /* Adjust this value as needed */
+  left: 50%; /* Centers the button horizontally */
+  transform: translateX(-50%); /* Centers the button exactly */
+  padding: 10px 20px; /* Adds some padding for a better look */
+  font-size: 16px; /* Increases the font size */
+  background-color: #4CAF50; /* Green background color */
+  color: black; /* White text color */
+  border: none; /* Removes the default border */
+  border-radius: 5px; /* Rounds the corners slightly */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: background-color 0.3s; /* Adds a transition effect for the background color */
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}
